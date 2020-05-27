@@ -43,7 +43,7 @@
             "connections": [
                 {
                     "ifcName": "IfcRelConnectsStructuralMember|151",
-                    "id": null,
+                    "id": "3HpX6_2MD3SAMe3aIkMQiM",
                     "relatingElement": "IfcStructuralCurveMember|133",
                     "relatedConnection": "IfcStructuralPointConnection|148",
                     "orientation": [
