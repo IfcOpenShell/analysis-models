@@ -13,14 +13,17 @@ All model folders contain the following files:
 
 __Input:__
 - `{example_name}.json`: json data file of the model
-- `bldMesh.med`: mesh file exported from Salome_Meca after executing [`scriptSalome`](https://github.com/IfcOpenShell/IfcOpenShell/blob/v0.6.0/src/ifc2ca/scriptSalome.py)
-- `CA_input_00.comm`: command file generated from [`scriptCodeAster`](https://github.com/IfcOpenShell/IfcOpenShell/blob/v0.6.0/src/ifc2ca/scriptCodeAster.py)
+- `{example_name}.med`: mesh file exported from Salome_Meca after executing [`scriptSalome`](https://github.com/IfcOpenShell/IfcOpenShell/blob/v0.6.0/src/ifc2ca/scriptSalome.py)
+- `{example_name}.comm`: command file generated from [`scriptCodeAster`](https://github.com/IfcOpenShell/IfcOpenShell/blob/v0.6.0/src/ifc2ca/scriptCodeAster.py)
 
 __Output:__
-- `log.mess`: message log file of the interpreted commands in Code_Aster
-- `results.rmed`: result file on the mesh of the structure to visualize in Salome_Meca
-- `reactions.resu`: result text file of the total reactions derived from the analysis
+- `{example_name}.mess`: message log file of the interpreted commands in Code_Aster
+- `{example_name}.rmed`: result file on the mesh of the structure to visualize in Salome_Meca
+- `{example_name}.resu`: result text file of the total reactions derived from the analysis (WIP)
 
 ---
 
 ### Featured Models (WIP)
+
+- `cantilever_01` (model created by Dion Moult)
+- `portal_01` (model created by buildingSmart)
