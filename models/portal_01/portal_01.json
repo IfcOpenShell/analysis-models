@@ -425,6 +425,7 @@
             {
                 "ifcName": "IfcMaterial|353",
                 "name": "ASTM A36",
+                "category": "Steel",
                 "mechProps": {
                     "youngModulus": 29000000.0,
                     "shearModulus": 11200000.0

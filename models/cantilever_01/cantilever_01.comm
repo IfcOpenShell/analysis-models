@@ -28,7 +28,7 @@ model = AFFE_MODELE(
             MODELISATION = 'POU_D_E'
         ),
         _F(
-            GROUP_MA = ('ISPC_148',),
+            GROUP_MA = ('ISPC_148', 'ISCM_133_1DS_ISPC_148'),
             PHENOMENE = 'MECANIQUE',
             MODELISATION = 'DIS_TR'
         ),
@@ -74,6 +74,12 @@ element = AFFE_CARA_ELEM(
             VALE = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
             REPERE = 'LOCAL'
         ),
+        _F(
+            GROUP_MA = 'ISCM_133_1DS_ISPC_148',
+            CARA = 'K_TR_D_L',
+            VALE = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
+            REPERE = 'LOCAL'
+        ),
     ),
     ORIENTATION = (
         _F(
@@ -83,6 +89,11 @@ element = AFFE_CARA_ELEM(
         ),
         _F(
             GROUP_MA = 'ISPC_148',
+            CARA = 'VECT_X_Y',
+            VALE = (1.0, 0.0, 0.0, 0.0, 1.0, 0.0)
+        ),
+        _F(
+            GROUP_MA = 'ISCM_133_1DS_ISPC_148',
             CARA = 'VECT_X_Y',
             VALE = (1.0, 0.0, 0.0, 0.0, 1.0, 0.0)
         ),
@@ -130,43 +141,44 @@ liaisons = AFFE_CHAR_MECA(
             COEF_IMPO = 0.0
         ),
         _F(
-            GROUP_NO = ('ISPC_148', 'ISPC_148', 'ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148'),
+            GROUP_NO = ('ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISPC_148', 'ISPC_148', 'ISPC_148'),
             DDL = ('DX', 'DY', 'DZ', 'DX', 'DY', 'DZ'),
             COEF_MULT = (1.0, 0.0, 0.0, -1.0, -0.0, -0.0),
             COEF_IMPO = 0.0
         ),
         _F(
-            GROUP_NO = ('ISPC_148', 'ISPC_148', 'ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148'),
+            GROUP_NO = ('ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISPC_148', 'ISPC_148', 'ISPC_148'),
             DDL = ('DX', 'DY', 'DZ', 'DX', 'DY', 'DZ'),
             COEF_MULT = (0.0, 1.0, 0.0, -0.0, -1.0, -0.0),
             COEF_IMPO = 0.0
         ),
         _F(
-            GROUP_NO = ('ISPC_148', 'ISPC_148', 'ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148'),
+            GROUP_NO = ('ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISPC_148', 'ISPC_148', 'ISPC_148'),
             DDL = ('DX', 'DY', 'DZ', 'DX', 'DY', 'DZ'),
             COEF_MULT = (0.0, 0.0, 1.0, -0.0, -0.0, -1.0),
             COEF_IMPO = 0.0
         ),
         _F(
-            GROUP_NO = ('ISPC_148', 'ISPC_148', 'ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148'),
+            GROUP_NO = ('ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISPC_148', 'ISPC_148', 'ISPC_148'),
             DDL = ('DRX', 'DRY', 'DRZ', 'DRX', 'DRY', 'DRZ'),
             COEF_MULT = (1.0, 0.0, 0.0, -1.0, -0.0, -0.0),
             COEF_IMPO = 0.0
         ),
         _F(
-            GROUP_NO = ('ISPC_148', 'ISPC_148', 'ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148'),
+            GROUP_NO = ('ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISPC_148', 'ISPC_148', 'ISPC_148'),
             DDL = ('DRX', 'DRY', 'DRZ', 'DRX', 'DRY', 'DRZ'),
             COEF_MULT = (0.0, 1.0, 0.0, -0.0, -1.0, -0.0),
             COEF_IMPO = 0.0
         ),
         _F(
-            GROUP_NO = ('ISPC_148', 'ISPC_148', 'ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148'),
+            GROUP_NO = ('ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISCM_133_0DC_ISPC_148', 'ISPC_148', 'ISPC_148', 'ISPC_148'),
             DDL = ('DRX', 'DRY', 'DRZ', 'DRX', 'DRY', 'DRZ'),
             COEF_MULT = (0.0, 0.0, 1.0, -0.0, -0.0, -1.0),
             COEF_IMPO = 0.0
         ),
     ),
 )
+
 # STEP: DEFINE LOAD
 gravLoad = AFFE_CHAR_MECA(
     MODELE = model,

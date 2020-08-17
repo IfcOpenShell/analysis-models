@@ -115,6 +115,7 @@
             {
                 "ifcName": "IfcMaterial|95",
                 "name": "Material",
+                "category": null,
                 "mechProps": {
                     "youngModulus": 210000000.0,
                     "poissonRatio": 0.2
