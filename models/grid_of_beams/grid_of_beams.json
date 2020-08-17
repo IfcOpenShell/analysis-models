@@ -1,0 +1,1382 @@
+{
+    "ifcName": "IfcStructuralAnalysisModel|19",
+    "name": "Grid of beams",
+    "id": "1szcHMIB5Awheq0A5FSAFW",
+    "elements": [
+        {
+            "ifcName": "IfcStructuralCurveMember|41",
+            "name": "Beam_30x60_1",
+            "id": "1xIwiU_wX4yB6NhlyZWuUE",
+            "geometryType": "line",
+            "predefinedType": "RIGID_JOINED_MEMBER",
+            "geometry": [
+                [
+                    -3.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    3.0,
+                    0.0,
+                    0.0
+                ]
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "material": "IfcMaterial|21",
+            "profile": "IfcRectangleProfileDef|27",
+            "connections": [
+                {
+                    "ifcName": "IfcRelConnectsStructuralMember|185",
+                    "id": "06Px3g1Rz3Buuj6MnjDSJc",
+                    "relatingElement": "IfcStructuralCurveMember|41",
+                    "relatedConnection": "IfcStructuralPointConnection|104",
+                    "orientation": [
+                        [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": null,
+                    "eccentricity": null
+                },
+                {
+                    "ifcName": "IfcRelConnectsStructuralMember|189",
+                    "id": "299SYUinbEox2Zf5AR4LcC",
+                    "relatingElement": "IfcStructuralCurveMember|41",
+                    "relatedConnection": "IfcStructuralPointConnection|112",
+                    "orientation": [
+                        [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": null,
+                    "eccentricity": null
+                },
+                {
+                    "ifcName": "IfcRelConnectsStructuralMember|193",
+                    "id": "2mqpHdBejBOfo6Pb8EJeD4",
+                    "relatingElement": "IfcStructuralCurveMember|41",
+                    "relatedConnection": "IfcStructuralPointConnection|120",
+                    "orientation": [
+                        [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": null,
+                    "eccentricity": null
+                },
+                {
+                    "ifcName": "IfcRelConnectsStructuralMember|197",
+                    "id": "0N4o2PVoXCThKs5$ujlhpP",
+                    "relatingElement": "IfcStructuralCurveMember|41",
+                    "relatedConnection": "IfcStructuralPointConnection|128",
+                    "orientation": [
+                        [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": null,
+                    "eccentricity": null
+                },
+                {
+                    "ifcName": "IfcRelConnectsStructuralMember|201",
+                    "id": "0kRaV71qD9tfxDo$ZsFT8K",
+                    "relatingElement": "IfcStructuralCurveMember|41",
+                    "relatedConnection": "IfcStructuralPointConnection|137",
+                    "orientation": [
+                        [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": null,
+                    "eccentricity": null
+                }
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralCurveMember|50",
+            "name": "Beam_30x60_2",
+            "id": "1BWEJ$H8T2Hga486kqRr$z",
+            "geometryType": "line",
+            "predefinedType": "RIGID_JOINED_MEMBER",
+            "geometry": [
+                [
+                    -3.0,
+                    5.0,
+                    0.0
+                ],
+                [
+                    3.0,
+                    5.0,
+                    0.0
+                ]
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "material": "IfcMaterial|21",
+            "profile": "IfcRectangleProfileDef|27",
+            "connections": [
+                {
+                    "ifcName": "IfcRelConnectsStructuralMember|205",
+                    "id": "05e05s$rLELwm_gKlCmZfC",
+                    "relatingElement": "IfcStructuralCurveMember|50",
+                    "relatedConnection": "IfcStructuralPointConnection|146",
+                    "orientation": [
+                        [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": null,
+                    "eccentricity": null
+                },
+                {
+                    "ifcName": "IfcRelConnectsStructuralMember|209",
+                    "id": "3aYDG84wPCHAyMN1l_fbUc",
+                    "relatingElement": "IfcStructuralCurveMember|50",
+                    "relatedConnection": "IfcStructuralPointConnection|154",
+                    "orientation": [
+                        [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": null,
+                    "eccentricity": null
+                },
+                {
+                    "ifcName": "IfcRelConnectsStructuralMember|213",
+                    "id": "0H8accFAX7yv3UItwW12vi",
+                    "relatingElement": "IfcStructuralCurveMember|50",
+                    "relatedConnection": "IfcStructuralPointConnection|162",
+                    "orientation": [
+                        [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": null,
+                    "eccentricity": null
+                },
+                {
+                    "ifcName": "IfcRelConnectsStructuralMember|217",
+                    "id": "1BtjyGe5v5Zf4IhVgO7c4g",
+                    "relatingElement": "IfcStructuralCurveMember|50",
+                    "relatedConnection": "IfcStructuralPointConnection|170",
+                    "orientation": [
+                        [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": null,
+                    "eccentricity": null
+                },
+                {
+                    "ifcName": "IfcRelConnectsStructuralMember|221",
+                    "id": "3iaAbFdDL7whBuSznwrhM$",
+                    "relatingElement": "IfcStructuralCurveMember|50",
+                    "relatedConnection": "IfcStructuralPointConnection|179",
+                    "orientation": [
+                        [
+                            1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            1.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": null,
+                    "eccentricity": null
+                }
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralCurveMember|59",
+            "name": "Beam_20x30_1",
+            "id": "0gYcaRFbnChRe9mUu_IEpT",
+            "geometryType": "line",
+            "predefinedType": "RIGID_JOINED_MEMBER",
+            "geometry": [
+                [
+                    -2.9,
+                    0.15,
+                    0.15
+                ],
+                [
+                    -2.9,
+                    4.85,
+                    0.15
+                ]
+            ],
+            "orientation": [
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.0,
+                    1.0
+                ]
+            ],
+            "material": "IfcMaterial|21",
+            "profile": "IfcRectangleProfileDef|28",
+            "connections": [
+                {
+                    "ifcName": "IfcRelConnectsWithEccentricity|228",
+                    "id": "1Tg633l6fBBxaspp386zUN",
+                    "relatingElement": "IfcStructuralCurveMember|59",
+                    "relatedConnection": "IfcStructuralPointConnection|104",
+                    "orientation": [
+                        [
+                            0.0,
+                            1.0,
+                            -0.0
+                        ],
+                        [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": {
+                        "dx": true,
+                        "dy": true,
+                        "dz": true,
+                        "drx": true,
+                        "dry": false,
+                        "drz": true
+                    },
+                    "eccentricity": {
+                        "vector": [
+                            -0.15,
+                            0.0,
+                            -0.15
+                        ],
+                        "pointOnElement": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "ifcName": "IfcRelConnectsWithEccentricity|235",
+                    "id": "05dnV$BUrEDAMSMFAo7wbF",
+                    "relatingElement": "IfcStructuralCurveMember|59",
+                    "relatedConnection": "IfcStructuralPointConnection|146",
+                    "orientation": [
+                        [
+                            0.0,
+                            1.0,
+                            -0.0
+                        ],
+                        [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": {
+                        "dx": true,
+                        "dy": true,
+                        "dz": true,
+                        "drx": true,
+                        "dry": false,
+                        "drz": true
+                    },
+                    "eccentricity": {
+                        "vector": [
+                            0.15,
+                            0.0,
+                            -0.15
+                        ],
+                        "pointOnElement": [
+                            4.7,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralCurveMember|68",
+            "name": "Beam_20x30_2",
+            "id": "2mtknr0K94Iur3rGSSdTsI",
+            "geometryType": "line",
+            "predefinedType": "RIGID_JOINED_MEMBER",
+            "geometry": [
+                [
+                    -1.45,
+                    0.15,
+                    0.15
+                ],
+                [
+                    -1.45,
+                    4.85,
+                    0.15
+                ]
+            ],
+            "orientation": [
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.0,
+                    1.0
+                ]
+            ],
+            "material": "IfcMaterial|21",
+            "profile": "IfcRectangleProfileDef|28",
+            "connections": [
+                {
+                    "ifcName": "IfcRelConnectsWithEccentricity|242",
+                    "id": "2Jg7y2vrn1nwhiEqZOSJoC",
+                    "relatingElement": "IfcStructuralCurveMember|68",
+                    "relatedConnection": "IfcStructuralPointConnection|112",
+                    "orientation": [
+                        [
+                            0.0,
+                            1.0,
+                            -0.0
+                        ],
+                        [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": {
+                        "dx": true,
+                        "dy": true,
+                        "dz": true,
+                        "drx": true,
+                        "dry": false,
+                        "drz": true
+                    },
+                    "eccentricity": {
+                        "vector": [
+                            -0.15,
+                            0.0,
+                            -0.15
+                        ],
+                        "pointOnElement": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "ifcName": "IfcRelConnectsWithEccentricity|249",
+                    "id": "04lAJn6rHE3wnvCTd6r5K$",
+                    "relatingElement": "IfcStructuralCurveMember|68",
+                    "relatedConnection": "IfcStructuralPointConnection|154",
+                    "orientation": [
+                        [
+                            0.0,
+                            1.0,
+                            -0.0
+                        ],
+                        [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": {
+                        "dx": true,
+                        "dy": true,
+                        "dz": true,
+                        "drx": true,
+                        "dry": false,
+                        "drz": true
+                    },
+                    "eccentricity": {
+                        "vector": [
+                            0.15,
+                            0.0,
+                            -0.15
+                        ],
+                        "pointOnElement": [
+                            4.7,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralCurveMember|77",
+            "name": "Beam_20x30_3",
+            "id": "1vb7Fk3A96veVgMDXB5s6F",
+            "geometryType": "line",
+            "predefinedType": "RIGID_JOINED_MEMBER",
+            "geometry": [
+                [
+                    0.0,
+                    0.15,
+                    0.15
+                ],
+                [
+                    0.0,
+                    4.85,
+                    0.15
+                ]
+            ],
+            "orientation": [
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.0,
+                    1.0
+                ]
+            ],
+            "material": "IfcMaterial|21",
+            "profile": "IfcRectangleProfileDef|28",
+            "connections": [
+                {
+                    "ifcName": "IfcRelConnectsWithEccentricity|256",
+                    "id": "1098JYYTf8J8nAuXeOpuZS",
+                    "relatingElement": "IfcStructuralCurveMember|77",
+                    "relatedConnection": "IfcStructuralPointConnection|120",
+                    "orientation": [
+                        [
+                            0.0,
+                            1.0,
+                            -0.0
+                        ],
+                        [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": {
+                        "dx": true,
+                        "dy": true,
+                        "dz": true,
+                        "drx": true,
+                        "dry": false,
+                        "drz": true
+                    },
+                    "eccentricity": {
+                        "vector": [
+                            -0.15,
+                            0.0,
+                            -0.15
+                        ],
+                        "pointOnElement": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "ifcName": "IfcRelConnectsWithEccentricity|263",
+                    "id": "1$n$SKcxbDifKbESTxIsQS",
+                    "relatingElement": "IfcStructuralCurveMember|77",
+                    "relatedConnection": "IfcStructuralPointConnection|162",
+                    "orientation": [
+                        [
+                            0.0,
+                            1.0,
+                            -0.0
+                        ],
+                        [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": {
+                        "dx": true,
+                        "dy": true,
+                        "dz": true,
+                        "drx": true,
+                        "dry": false,
+                        "drz": true
+                    },
+                    "eccentricity": {
+                        "vector": [
+                            0.15,
+                            0.0,
+                            -0.15
+                        ],
+                        "pointOnElement": [
+                            4.7,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralCurveMember|86",
+            "name": "Beam_20x30_4",
+            "id": "2lXNI5pBX8EBbbwgEH9Qt4",
+            "geometryType": "line",
+            "predefinedType": "RIGID_JOINED_MEMBER",
+            "geometry": [
+                [
+                    1.45,
+                    0.15,
+                    0.15
+                ],
+                [
+                    1.45,
+                    4.85,
+                    0.15
+                ]
+            ],
+            "orientation": [
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.0,
+                    1.0
+                ]
+            ],
+            "material": "IfcMaterial|21",
+            "profile": "IfcRectangleProfileDef|28",
+            "connections": [
+                {
+                    "ifcName": "IfcRelConnectsWithEccentricity|270",
+                    "id": "21$lQ0Odv34fvGZ6Kq$MpP",
+                    "relatingElement": "IfcStructuralCurveMember|86",
+                    "relatedConnection": "IfcStructuralPointConnection|128",
+                    "orientation": [
+                        [
+                            0.0,
+                            1.0,
+                            -0.0
+                        ],
+                        [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": {
+                        "dx": true,
+                        "dy": true,
+                        "dz": true,
+                        "drx": true,
+                        "dry": false,
+                        "drz": true
+                    },
+                    "eccentricity": {
+                        "vector": [
+                            -0.15,
+                            0.0,
+                            -0.15
+                        ],
+                        "pointOnElement": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "ifcName": "IfcRelConnectsWithEccentricity|277",
+                    "id": "3vQr1whUD8MBXczpkPQQTj",
+                    "relatingElement": "IfcStructuralCurveMember|86",
+                    "relatedConnection": "IfcStructuralPointConnection|170",
+                    "orientation": [
+                        [
+                            0.0,
+                            1.0,
+                            -0.0
+                        ],
+                        [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": {
+                        "dx": true,
+                        "dy": true,
+                        "dz": true,
+                        "drx": true,
+                        "dry": false,
+                        "drz": true
+                    },
+                    "eccentricity": {
+                        "vector": [
+                            0.15,
+                            0.0,
+                            -0.15
+                        ],
+                        "pointOnElement": [
+                            4.7,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralCurveMember|95",
+            "name": "Beam_20x30_5",
+            "id": "0Uzow1Vjn9TxGW9zBlcxv1",
+            "geometryType": "line",
+            "predefinedType": "RIGID_JOINED_MEMBER",
+            "geometry": [
+                [
+                    2.9,
+                    0.15,
+                    0.15
+                ],
+                [
+                    2.9,
+                    4.85,
+                    0.15
+                ]
+            ],
+            "orientation": [
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.0,
+                    1.0
+                ]
+            ],
+            "material": "IfcMaterial|21",
+            "profile": "IfcRectangleProfileDef|28",
+            "connections": [
+                {
+                    "ifcName": "IfcRelConnectsWithEccentricity|284",
+                    "id": "3EuNoyEJT3ownkBDp$LTkD",
+                    "relatingElement": "IfcStructuralCurveMember|95",
+                    "relatedConnection": "IfcStructuralPointConnection|137",
+                    "orientation": [
+                        [
+                            0.0,
+                            1.0,
+                            -0.0
+                        ],
+                        [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": {
+                        "dx": true,
+                        "dy": true,
+                        "dz": true,
+                        "drx": true,
+                        "dry": false,
+                        "drz": true
+                    },
+                    "eccentricity": {
+                        "vector": [
+                            -0.15,
+                            0.0,
+                            -0.15
+                        ],
+                        "pointOnElement": [
+                            0.0,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                },
+                {
+                    "ifcName": "IfcRelConnectsWithEccentricity|291",
+                    "id": "36JvjW34j1SOiMsCEeiQEt",
+                    "relatingElement": "IfcStructuralCurveMember|95",
+                    "relatedConnection": "IfcStructuralPointConnection|179",
+                    "orientation": [
+                        [
+                            0.0,
+                            1.0,
+                            -0.0
+                        ],
+                        [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": {
+                        "dx": true,
+                        "dy": true,
+                        "dz": true,
+                        "drx": true,
+                        "dry": false,
+                        "drz": true
+                    },
+                    "eccentricity": {
+                        "vector": [
+                            0.15,
+                            0.0,
+                            -0.15
+                        ],
+                        "pointOnElement": [
+                            4.7,
+                            0.0,
+                            0.0
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "ifcName": "IfcStructuralPointConnection|104",
+            "name": "Connection_1",
+            "id": "2X_ZfwQ8P5PhpDQEs1A43o",
+            "geometryType": "point",
+            "geometry": [
+                -2.9,
+                0.0,
+                0.0
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "appliedCondition": {
+                "dx": true,
+                "dy": true,
+                "dz": true,
+                "drx": true,
+                "dry": true,
+                "drz": true
+            },
+            "relatedElements": [
+                "IfcRelConnectsStructuralMember|185",
+                "IfcRelConnectsWithEccentricity|228"
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralPointConnection|112",
+            "name": "Connection_2",
+            "id": "1P7jVvVEXBDP8LRvcZklhh",
+            "geometryType": "point",
+            "geometry": [
+                -1.45,
+                0.0,
+                0.0
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "appliedCondition": null,
+            "relatedElements": [
+                "IfcRelConnectsStructuralMember|189",
+                "IfcRelConnectsWithEccentricity|242"
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralPointConnection|120",
+            "name": "Connection_3",
+            "id": "0dCj0g6lb26AEgwVchueWO",
+            "geometryType": "point",
+            "geometry": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "appliedCondition": null,
+            "relatedElements": [
+                "IfcRelConnectsStructuralMember|193",
+                "IfcRelConnectsWithEccentricity|256"
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralPointConnection|128",
+            "name": "Connection_4",
+            "id": "1Q8TCh7Iz5Aghk3CzJKLxd",
+            "geometryType": "point",
+            "geometry": [
+                1.45,
+                0.0,
+                0.0
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "appliedCondition": null,
+            "relatedElements": [
+                "IfcRelConnectsStructuralMember|197",
+                "IfcRelConnectsWithEccentricity|270"
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralPointConnection|137",
+            "name": "Connection_5",
+            "id": "15iGpO4zL2eRzVJrCc0TUn",
+            "geometryType": "point",
+            "geometry": [
+                2.9,
+                0.0,
+                0.0
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "appliedCondition": {
+                "dx": true,
+                "dy": true,
+                "dz": true,
+                "drx": true,
+                "dry": true,
+                "drz": true
+            },
+            "relatedElements": [
+                "IfcRelConnectsStructuralMember|201",
+                "IfcRelConnectsWithEccentricity|284"
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralPointConnection|146",
+            "name": "Connection_6",
+            "id": "0NfkNraUT4BBAJX4_MlRRY",
+            "geometryType": "point",
+            "geometry": [
+                -2.9,
+                5.0,
+                0.0
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "appliedCondition": {
+                "dx": true,
+                "dy": true,
+                "dz": true,
+                "drx": true,
+                "dry": true,
+                "drz": true
+            },
+            "relatedElements": [
+                "IfcRelConnectsStructuralMember|205",
+                "IfcRelConnectsWithEccentricity|235"
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralPointConnection|154",
+            "name": "Connection_7",
+            "id": "2vVeglS4bDawGS23CT6hQQ",
+            "geometryType": "point",
+            "geometry": [
+                -1.45,
+                5.0,
+                0.0
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "appliedCondition": null,
+            "relatedElements": [
+                "IfcRelConnectsStructuralMember|209",
+                "IfcRelConnectsWithEccentricity|249"
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralPointConnection|162",
+            "name": "Connection_8",
+            "id": "2Z3Fil0ZbFqeqjmeVbUTEK",
+            "geometryType": "point",
+            "geometry": [
+                0.0,
+                5.0,
+                0.0
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "appliedCondition": null,
+            "relatedElements": [
+                "IfcRelConnectsStructuralMember|213",
+                "IfcRelConnectsWithEccentricity|263"
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralPointConnection|170",
+            "name": "Connection_9",
+            "id": "0mHzMA9Iz2kAz6Y$WcU2Wc",
+            "geometryType": "point",
+            "geometry": [
+                1.45,
+                5.0,
+                0.0
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "appliedCondition": null,
+            "relatedElements": [
+                "IfcRelConnectsStructuralMember|217",
+                "IfcRelConnectsWithEccentricity|277"
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralPointConnection|179",
+            "name": "Connection_10",
+            "id": "3QHoWFrFT2ZBd2NG9yvRv3",
+            "geometryType": "point",
+            "geometry": [
+                2.9,
+                5.0,
+                0.0
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "appliedCondition": {
+                "dx": true,
+                "dy": true,
+                "dz": true,
+                "drx": true,
+                "dry": true,
+                "drz": true
+            },
+            "relatedElements": [
+                "IfcRelConnectsStructuralMember|221",
+                "IfcRelConnectsWithEccentricity|291"
+            ]
+        }
+    ],
+    "db": {
+        "materials": [
+            {
+                "ifcName": "IfcMaterial|21",
+                "name": "Material",
+                "category": null,
+                "mechProps": {
+                    "youngModulus": 210000000.0,
+                    "poissonRatio": 0.2
+                },
+                "commonProps": {
+                    "massDensity": 7.8
+                },
+                "relatedElements": [
+                    "IfcStructuralCurveMember|41",
+                    "IfcStructuralCurveMember|50",
+                    "IfcStructuralCurveMember|59",
+                    "IfcStructuralCurveMember|68",
+                    "IfcStructuralCurveMember|77",
+                    "IfcStructuralCurveMember|86",
+                    "IfcStructuralCurveMember|95"
+                ]
+            }
+        ],
+        "profiles": [
+            {
+                "ifcName": "IfcRectangleProfileDef|27",
+                "profileName": "R30x60",
+                "profileType": "AREA",
+                "profileShape": "rectangular",
+                "xDim": 0.3,
+                "yDim": 0.6,
+                "relatedElements": [
+                    "IfcStructuralCurveMember|41",
+                    "IfcStructuralCurveMember|50"
+                ]
+            },
+            {
+                "ifcName": "IfcRectangleProfileDef|28",
+                "profileName": "R20x30",
+                "profileType": "AREA",
+                "profileShape": "rectangular",
+                "xDim": 0.2,
+                "yDim": 0.3,
+                "relatedElements": [
+                    "IfcStructuralCurveMember|59",
+                    "IfcStructuralCurveMember|68",
+                    "IfcStructuralCurveMember|77",
+                    "IfcStructuralCurveMember|86",
+                    "IfcStructuralCurveMember|95"
+                ]
+            }
+        ]
+    },
+    "warnings": []
+}
