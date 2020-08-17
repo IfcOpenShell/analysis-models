@@ -19,11 +19,19 @@ __Input:__
 __Output:__
 - `{example_name}.mess`: message log file of the interpreted commands in Code_Aster
 - `{example_name}.rmed`: result file on the mesh of the structure to visualize in Salome_Meca
-- `{example_name}.resu`: result text file of the total reactions derived from the analysis (WIP)
 
 ---
 
-### Featured Models (WIP)
+### Featured Models
 
-- `cantilever_01` (model created by Dion Moult)
-- `portal_01` (model created by buildingSmart)
+### `cantilever_01`
+!['geometry and mesh'](models/cantilever_01/geometry&mesh.png)
+!['result'](models/cantilever_01/result.png)
+
+### `portal_01`
+!['geometry and mesh'](models/portal_01/geometry&mesh.png)
+!['result'](models/portal_01/result.png)
+
+### `grid_of_beams`
+!['geometry and mesh'](models/grid_of_beams/geometry&mesh.png)
+!['result'](models/grid_of_beams/result.png)
