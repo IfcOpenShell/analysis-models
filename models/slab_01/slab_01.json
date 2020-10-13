@@ -1,0 +1,222 @@
+{
+    "ifcName": "IfcStructuralAnalysisModel|19",
+    "name": "My Model",
+    "id": "1oNsJuxl13jvSmklhpHppA",
+    "elements": [
+        {
+            "ifcName": "IfcStructuralSurfaceMember|52",
+            "name": "Slab_01",
+            "id": "3qaNpNbVT2Kf8aKyv$kyqF",
+            "geometryType": "surface",
+            "predefinedType": "SHELL",
+            "thickness": 0.2,
+            "geometry": [
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    5.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    5.0,
+                    3.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    3.0,
+                    0.0
+                ]
+            ],
+            "orientation": [
+                [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    0.0,
+                    1.0
+                ]
+            ],
+            "material": "IfcMaterial|21",
+            "connections": [
+                {
+                    "ifcName": "IfcRelConnectsStructuralMember|78",
+                    "id": "1uWLqhhYrEHP5pxBinFaui",
+                    "relatingElement": "IfcStructuralSurfaceMember|52",
+                    "relatedConnection": "IfcStructuralCurveConnection|62",
+                    "orientation": [
+                        [
+                            0.0,
+                            1.0,
+                            -0.0
+                        ],
+                        [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": null,
+                    "eccentricity": null
+                },
+                {
+                    "ifcName": "IfcRelConnectsStructuralMember|83",
+                    "id": "0i$5NBHUDC4vLPbDjv$DyT",
+                    "relatingElement": "IfcStructuralSurfaceMember|52",
+                    "relatedConnection": "IfcStructuralCurveConnection|72",
+                    "orientation": [
+                        [
+                            0.0,
+                            1.0,
+                            -0.0
+                        ],
+                        [
+                            -1.0,
+                            0.0,
+                            0.0
+                        ],
+                        [
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    ],
+                    "appliedCondition": null,
+                    "eccentricity": null
+                }
+            ]
+        }
+    ],
+    "connections": [
+        {
+            "ifcName": "IfcStructuralCurveConnection|62",
+            "name": "Connection_01",
+            "id": "11EltkHPv5uOArZ8quRgI_",
+            "geometryType": "line",
+            "geometry": [
+                [
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    3.0,
+                    0.0
+                ]
+            ],
+            "orientation": [
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.0,
+                    1.0
+                ]
+            ],
+            "appliedCondition": {
+                "dx": true,
+                "dy": true,
+                "dz": true,
+                "drx": true,
+                "dry": false,
+                "drz": false
+            },
+            "relatedElements": [
+                "IfcRelConnectsStructuralMember|78"
+            ]
+        },
+        {
+            "ifcName": "IfcStructuralCurveConnection|72",
+            "name": "Connection_02",
+            "id": "3n7$56nqP17902_7RCTidz",
+            "geometryType": "line",
+            "geometry": [
+                [
+                    5.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    5.0,
+                    3.0,
+                    0.0
+                ]
+            ],
+            "orientation": [
+                [
+                    0.0,
+                    1.0,
+                    0.0
+                ],
+                [
+                    -1.0,
+                    0.0,
+                    0.0
+                ],
+                [
+                    0.0,
+                    -0.0,
+                    1.0
+                ]
+            ],
+            "appliedCondition": {
+                "dx": true,
+                "dy": true,
+                "dz": true,
+                "drx": false,
+                "dry": false,
+                "drz": false
+            },
+            "relatedElements": [
+                "IfcRelConnectsStructuralMember|83"
+            ]
+        }
+    ],
+    "db": {
+        "materials": [
+            {
+                "ifcName": "IfcMaterial|21",
+                "name": "Material_01",
+                "category": null,
+                "mechProps": {
+                    "youngModulus": 210000000.0,
+                    "poissonRatio": 0.2
+                },
+                "commonProps": {
+                    "massDensity": 7.8
+                },
+                "relatedElements": [
+                    "IfcStructuralSurfaceMember|52"
+                ]
+            }
+        ],
+        "profiles": []
+    },
+    "warnings": []
+}

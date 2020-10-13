@@ -35,3 +35,7 @@ __Output:__
 ### `grid_of_beams`
 !['geometry and mesh'](models/grid_of_beams/geometry&mesh.png)
 !['result'](models/grid_of_beams/result.png)
+
+### `slab_01`
+!['geometry and mesh'](models/slab_01/geometry&mesh.png)
+!['result'](models/slab_01/result.png)
