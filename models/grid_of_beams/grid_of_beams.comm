@@ -28,7 +28,7 @@ model = AFFE_MODELE(
             MODELISATION = 'POU_D_E'
         ),
         _F(
-            GROUP_MA = ('ISPC_104', 'ISPC_112', 'ISPC_120', 'ISPC_128', 'ISPC_137', 'ISPC_146', 'ISPC_154', 'ISPC_162', 'ISPC_170', 'ISPC_179', 'ISCM_41_1DS_ISPC_104', 'ISCM_41_1DS_ISPC_112', 'ISCM_41_1DS_ISPC_120', 'ISCM_41_1DS_ISPC_128', 'ISCM_41_1DS_ISPC_137', 'ISCM_50_1DS_ISPC_146', 'ISCM_50_1DS_ISPC_154', 'ISCM_50_1DS_ISPC_162', 'ISCM_50_1DS_ISPC_170', 'ISCM_50_1DS_ISPC_179', 'ISCM_59_1DS_ISPC_104', 'ISCM_59_1DS_ISPC_146', 'ISCM_68_1DS_ISPC_112', 'ISCM_68_1DS_ISPC_154', 'ISCM_77_1DS_ISPC_120', 'ISCM_77_1DS_ISPC_162', 'ISCM_86_1DS_ISPC_128', 'ISCM_86_1DS_ISPC_170', 'ISCM_95_1DS_ISPC_137', 'ISCM_95_1DS_ISPC_179'),
+            GROUP_MA = ('ISPC_104_0D', 'ISPC_112_0D', 'ISPC_120_0D', 'ISPC_128_0D', 'ISPC_137_0D', 'ISPC_146_0D', 'ISPC_154_0D', 'ISPC_162_0D', 'ISPC_170_0D', 'ISPC_179_0D', 'ISCM_41_1DS_ISPC_104', 'ISCM_41_1DS_ISPC_112', 'ISCM_41_1DS_ISPC_120', 'ISCM_41_1DS_ISPC_128', 'ISCM_41_1DS_ISPC_137', 'ISCM_50_1DS_ISPC_146', 'ISCM_50_1DS_ISPC_154', 'ISCM_50_1DS_ISPC_162', 'ISCM_50_1DS_ISPC_170', 'ISCM_50_1DS_ISPC_179', 'ISCM_59_1DS_ISPC_104', 'ISCM_59_1DS_ISPC_146', 'ISCM_68_1DS_ISPC_112', 'ISCM_68_1DS_ISPC_154', 'ISCM_77_1DS_ISPC_120', 'ISCM_77_1DS_ISPC_162', 'ISCM_86_1DS_ISPC_128', 'ISCM_86_1DS_ISPC_170', 'ISCM_95_1DS_ISPC_137', 'ISCM_95_1DS_ISPC_179'),
             PHENOMENE = 'MECANIQUE',
             MODELISATION = 'DIS_TR'
         ),
@@ -90,7 +90,7 @@ element = AFFE_CARA_ELEM(
     ),
     DISCRET = (
         _F(
-            GROUP_MA = 'ISPC_104',
+            GROUP_MA = 'ISPC_104_0D',
             CARA = 'K_TR_D_N',
             VALE = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
             REPERE = 'LOCAL'
@@ -108,7 +108,7 @@ element = AFFE_CARA_ELEM(
             REPERE = 'LOCAL'
         ),
         _F(
-            GROUP_MA = 'ISPC_112',
+            GROUP_MA = 'ISPC_112_0D',
             CARA = 'K_TR_D_N',
             VALE = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
             REPERE = 'LOCAL'
@@ -126,7 +126,7 @@ element = AFFE_CARA_ELEM(
             REPERE = 'LOCAL'
         ),
         _F(
-            GROUP_MA = 'ISPC_120',
+            GROUP_MA = 'ISPC_120_0D',
             CARA = 'K_TR_D_N',
             VALE = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
             REPERE = 'LOCAL'
@@ -144,7 +144,7 @@ element = AFFE_CARA_ELEM(
             REPERE = 'LOCAL'
         ),
         _F(
-            GROUP_MA = 'ISPC_128',
+            GROUP_MA = 'ISPC_128_0D',
             CARA = 'K_TR_D_N',
             VALE = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
             REPERE = 'LOCAL'
@@ -162,7 +162,7 @@ element = AFFE_CARA_ELEM(
             REPERE = 'LOCAL'
         ),
         _F(
-            GROUP_MA = 'ISPC_137',
+            GROUP_MA = 'ISPC_137_0D',
             CARA = 'K_TR_D_N',
             VALE = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
             REPERE = 'LOCAL'
@@ -180,7 +180,7 @@ element = AFFE_CARA_ELEM(
             REPERE = 'LOCAL'
         ),
         _F(
-            GROUP_MA = 'ISPC_146',
+            GROUP_MA = 'ISPC_146_0D',
             CARA = 'K_TR_D_N',
             VALE = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
             REPERE = 'LOCAL'
@@ -198,7 +198,7 @@ element = AFFE_CARA_ELEM(
             REPERE = 'LOCAL'
         ),
         _F(
-            GROUP_MA = 'ISPC_154',
+            GROUP_MA = 'ISPC_154_0D',
             CARA = 'K_TR_D_N',
             VALE = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
             REPERE = 'LOCAL'
@@ -216,7 +216,7 @@ element = AFFE_CARA_ELEM(
             REPERE = 'LOCAL'
         ),
         _F(
-            GROUP_MA = 'ISPC_162',
+            GROUP_MA = 'ISPC_162_0D',
             CARA = 'K_TR_D_N',
             VALE = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
             REPERE = 'LOCAL'
@@ -234,7 +234,7 @@ element = AFFE_CARA_ELEM(
             REPERE = 'LOCAL'
         ),
         _F(
-            GROUP_MA = 'ISPC_170',
+            GROUP_MA = 'ISPC_170_0D',
             CARA = 'K_TR_D_N',
             VALE = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
             REPERE = 'LOCAL'
@@ -252,7 +252,7 @@ element = AFFE_CARA_ELEM(
             REPERE = 'LOCAL'
         ),
         _F(
-            GROUP_MA = 'ISPC_179',
+            GROUP_MA = 'ISPC_179_0D',
             CARA = 'K_TR_D_N',
             VALE = (0.0, 0.0, 0.0, 0.0, 0.0, 0.0),
             REPERE = 'LOCAL'
@@ -307,7 +307,7 @@ element = AFFE_CARA_ELEM(
             VALE = (-1.0, 0.0, 0.0)
         ),
         _F(
-            GROUP_MA = 'ISPC_104',
+            GROUP_MA = 'ISPC_104_0D',
             CARA = 'VECT_X_Y',
             VALE = (1.0, 0.0, 0.0, 0.0, 1.0, 0.0)
         ),
@@ -322,7 +322,7 @@ element = AFFE_CARA_ELEM(
             VALE = (0.0, 1.0, -0.0, -1.0, 0.0, 0.0)
         ),
         _F(
-            GROUP_MA = 'ISPC_112',
+            GROUP_MA = 'ISPC_112_0D',
             CARA = 'VECT_X_Y',
             VALE = (1.0, 0.0, 0.0, 0.0, 1.0, 0.0)
         ),
@@ -337,7 +337,7 @@ element = AFFE_CARA_ELEM(
             VALE = (0.0, 1.0, -0.0, -1.0, 0.0, 0.0)
         ),
         _F(
-            GROUP_MA = 'ISPC_120',
+            GROUP_MA = 'ISPC_120_0D',
             CARA = 'VECT_X_Y',
             VALE = (1.0, 0.0, 0.0, 0.0, 1.0, 0.0)
         ),
@@ -352,7 +352,7 @@ element = AFFE_CARA_ELEM(
             VALE = (0.0, 1.0, -0.0, -1.0, 0.0, 0.0)
         ),
         _F(
-            GROUP_MA = 'ISPC_128',
+            GROUP_MA = 'ISPC_128_0D',
             CARA = 'VECT_X_Y',
             VALE = (1.0, 0.0, 0.0, 0.0, 1.0, 0.0)
         ),
@@ -367,7 +367,7 @@ element = AFFE_CARA_ELEM(
             VALE = (0.0, 1.0, -0.0, -1.0, 0.0, 0.0)
         ),
         _F(
-            GROUP_MA = 'ISPC_137',
+            GROUP_MA = 'ISPC_137_0D',
             CARA = 'VECT_X_Y',
             VALE = (1.0, 0.0, 0.0, 0.0, 1.0, 0.0)
         ),
@@ -382,7 +382,7 @@ element = AFFE_CARA_ELEM(
             VALE = (0.0, 1.0, -0.0, -1.0, 0.0, 0.0)
         ),
         _F(
-            GROUP_MA = 'ISPC_146',
+            GROUP_MA = 'ISPC_146_0D',
             CARA = 'VECT_X_Y',
             VALE = (1.0, 0.0, 0.0, 0.0, 1.0, 0.0)
         ),
@@ -397,7 +397,7 @@ element = AFFE_CARA_ELEM(
             VALE = (0.0, 1.0, -0.0, -1.0, 0.0, 0.0)
         ),
         _F(
-            GROUP_MA = 'ISPC_154',
+            GROUP_MA = 'ISPC_154_0D',
             CARA = 'VECT_X_Y',
             VALE = (1.0, 0.0, 0.0, 0.0, 1.0, 0.0)
         ),
@@ -412,7 +412,7 @@ element = AFFE_CARA_ELEM(
             VALE = (0.0, 1.0, -0.0, -1.0, 0.0, 0.0)
         ),
         _F(
-            GROUP_MA = 'ISPC_162',
+            GROUP_MA = 'ISPC_162_0D',
             CARA = 'VECT_X_Y',
             VALE = (1.0, 0.0, 0.0, 0.0, 1.0, 0.0)
         ),
@@ -427,7 +427,7 @@ element = AFFE_CARA_ELEM(
             VALE = (0.0, 1.0, -0.0, -1.0, 0.0, 0.0)
         ),
         _F(
-            GROUP_MA = 'ISPC_170',
+            GROUP_MA = 'ISPC_170_0D',
             CARA = 'VECT_X_Y',
             VALE = (1.0, 0.0, 0.0, 0.0, 1.0, 0.0)
         ),
@@ -442,7 +442,7 @@ element = AFFE_CARA_ELEM(
             VALE = (0.0, 1.0, -0.0, -1.0, 0.0, 0.0)
         ),
         _F(
-            GROUP_MA = 'ISPC_179',
+            GROUP_MA = 'ISPC_179_0D',
             CARA = 'VECT_X_Y',
             VALE = (1.0, 0.0, 0.0, 0.0, 1.0, 0.0)
         ),
@@ -1267,6 +1267,8 @@ liaisons = AFFE_CHAR_MECA(
             COEF_MULT = (0.0, 0.0, 1.0, -0.0, -0.0, -1.0),
             COEF_IMPO = 0.0
         ),
+    ),
+    LIAISON_GROUP = (
     ),
     LIAISON_UNIF = (
         _F(
