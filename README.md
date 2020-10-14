@@ -14,7 +14,7 @@ All model folders contain the following files:
 __Input:__
 - `{example_name}.json`: json data file of the model
 - `{example_name}.med`: mesh file exported from Salome_Meca after executing [`scriptSalome`](https://github.com/IfcOpenShell/IfcOpenShell/blob/v0.6.0/src/ifc2ca/scriptSalome.py)
-- `{example_name}.comm`: command file generated from [`scriptCodeAster`](https://github.com/IfcOpenShell/IfcOpenShell/blob/v0.6.0/src/ifc2ca/scriptCodeAster.py)
+- `{example_name}.comm`: command file generated from [`scriptCodeAster`](https://github.com/IfcOpenShell/IfcOpenShell/blob/v0.6.0/src/ifc2ca/scriptCodeAstMer.py)
 
 __Output:__
 - `{example_name}.mess`: message log file of the interpreted commands in Code_Aster
@@ -39,3 +39,7 @@ __Output:__
 ### `slab_01`
 !['geometry and mesh'](models/slab_01/geometry&mesh.png)
 !['result'](models/slab_01/result.png)
+
+### `structure_01`
+!['geometry and mesh'](models/structure_01/geometry&mesh.png)
+!['result'](models/structure_01/result.png)
