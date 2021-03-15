@@ -18,7 +18,7 @@ DATA;
 #11=IFCORGANIZATION($,'IfcOpenShell','IfcOpenShell, an open source (LGPL) software library that helps users and software developers to work with the IFC file format.',$,$);
 #12=IFCPERSONANDORGANIZATION(#10,#11,$);
 #13=IFCAPPLICATION(#11,'v0.0.x','IFC2CA','IFC2CA');
-#14=IFCOWNERHISTORY(#12,#13,.READWRITE.,$,$,#12,#13,$);
+#14=IFCOWNERHISTORY(#12,#13,.READWRITE.,$,$,$,$,1615765201);
 #15=IFCGEOMETRICREPRESENTATIONCONTEXT($,'Model',3,1.E-05,#5,$);
 #16=IFCGEOMETRICREPRESENTATIONSUBCONTEXT('Body','Model',*,*,*,*,#15,$,.MODEL_VIEW.,$);
 #17=IFCGEOMETRICREPRESENTATIONSUBCONTEXT('Reference','Model',*,*,*,*,#15,$,.GRAPH_VIEW.,$);
